@@ -1,0 +1,201 @@
+body {
+	font-family:sans-serif;
+}
+
+hr {
+	width:95%;
+	border-width: 2px;
+}
+
+img {
+	padding:3px;
+}
+
+img.groupPic {
+	border:4px solid #9d9e9f;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	opacity:0.85;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color:#e3e3e3;
+}
+
+a:link {
+	color:#000000;
+}
+
+h2 {
+	font-variant: small-caps;
+	color:#303030;
+	padding:7px;
+}
+
+p {
+	text-align:justify;
+	font-size: 16px;
+	color:#525252;
+	padding:7px;
+}
+
+p.caption {
+	text-align:center;
+	color:#7b7c7d;
+	font-size:12px;
+	font-style:italic;
+	font-weight: bold;
+}
+
+p.quote {
+	text-align:center;
+	font-size:30px;
+	font-style:italic;
+}
+
+p.link {
+	text-align:center;
+}
+
+h1 {
+	text-align:center;
+	font-size:28px;
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+ul{
+	list-style-type:square;
+}
+
+li {
+	text-align:left;
+	font-size:24px;
+	color:#ffffff;
+	margin-left:80px;
+}
+
+table {
+	align:center;
+	margin-left:100px;
+	border: 0px;
+	border-collapse: collapse;
+	width: 85%;
+}
+
+th {
+    background-color: #1c1b1b;
+    color: white;
+	height: 60px;
+	font-size:25px;
+}
+
+td {
+	background-color: #aaaaaa;
+    color: 525252;
+	height: 45;
+	text-align: center;
+	font-size:20px;
+}
+
+td.light {
+	background-color: #dbdbdb;
+}
+
+.emp {
+	color:red;
+	font-weight:bold;
+}
+
+#page {
+	width:1340px;
+	height:1350px;
+	background-image:url("stardust2.png");
+	background-repeat:repeat-x;
+    background-attachment: fixed;
+}
+
+#title {
+	width:1340px;
+	height:175px;
+}
+
+#spaces {
+	width:1340px;
+	height:25px;
+}
+
+#fullLeft {
+	width:600px;
+	height:375px;
+	margin-left:10px;
+	float:left;
+	background-image:url("old_moon.png");
+}
+
+#fullRight {
+	width:670px;
+	height:375px;
+	margin-right:10px;
+	float:right;
+	background-image:url("old_moon.png");
+}
+
+#none {
+	width:1340px;
+	height:375px;
+}
+
+#space2 {
+	width:1340px;
+	height:25px;
+}
+
+#table {
+	width:1340px;
+	height:270px;
+}
+
+#left {
+	width:450px;
+	height:375px;
+	background-color:yellow;
+	float:left;
+	background-image:url("mochagrunge.png");
+}
+
+#right {
+	width:450px;
+	height:375px;
+	background-color:green;
+	float:right;
+	background-image:url("mochagrunge.png");
+}
+
+#center {
+	width:440px;
+	height:375px;
+	background-color:purple;
+	margin-left:450px;
+	background-image:url("tweed.png");
+}
+
+#quote {
+	width:1340px;
+	height:55px;
+	background-image:url("old_moon.png");
+}
+
+#links {
+	width:1340px;
+	height:25px;
+}
